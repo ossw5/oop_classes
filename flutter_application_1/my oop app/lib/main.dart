@@ -1,7 +1,6 @@
 import 'matt.dart';
 
 void main() {
-  Matt student = Matt(name: "Matt", age: 20, yearLevel: "2", section: "B");
-
-  student.introduce();
+  var p1 = Matt('Matt', 20, 2, 'B');
+  p1.person();
 }
